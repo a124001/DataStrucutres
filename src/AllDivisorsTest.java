@@ -18,8 +18,14 @@ class AllDivisorsTest {
    	  
          assertEquals("[1, 2, 4, 5, 10, 20, 25, 50, 100]",ad.getAllDivisorsWithRootN(100) );
    	  
-         assertEquals(ad.getAllDivisorsWithRootN(7), "1 7 ");
+         assertEquals(ad.getAllDivisorsWithRootN(7), "[1, 7]");
 
+         assertEquals("1 3 5 15 ",ad.getAllDivisorsEfficientSolution(15));
+   	  
+         assertEquals("1 2 4 5 10 20 25 50 100 ",ad.getAllDivisorsEfficientSolution(100));
+   	  
+         assertEquals("1 7 ",ad.getAllDivisorsEfficientSolution(7) );
+   	  
 	}
 
 }

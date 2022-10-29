@@ -14,6 +14,8 @@ class PalindromeTest {
         assertFalse(p.ifPalindromeWithNumber(889));
         
         assertTrue(p.ifPalindromeWithNumber(0));
+        assertTrue(p.ifPalindromeWithNumber(8));
+
 
 	}
 

@@ -1,3 +1,4 @@
+package mathematics;
 import java.util.function.BooleanSupplier;
 
 public class Palindrome {

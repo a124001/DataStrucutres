@@ -1,3 +1,4 @@
+package mathematics;
 
 public class CheckPrime {
 
